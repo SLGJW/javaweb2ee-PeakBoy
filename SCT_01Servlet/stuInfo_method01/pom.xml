@@ -7,7 +7,10 @@
   <groupId>com.tiger</groupId>
   <artifactId>stuInfo_method01</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>war</packaging>
+  <modules>
+    <module>../stuInfo_method02</module>
+  </modules>
+  <packaging>pom</packaging>
 
   <name>stuInfo_method01 Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
