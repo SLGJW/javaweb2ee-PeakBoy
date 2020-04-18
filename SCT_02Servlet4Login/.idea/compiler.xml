@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="login_Cookie" />
+        <module name="login_session" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="login_Cookie" target="1.7" />
+      <module name="login_session" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
