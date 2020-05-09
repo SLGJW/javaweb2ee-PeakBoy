@@ -30,7 +30,7 @@ public class LoginServlet extends HttpServlet {
             } else {
                 //回写信息
                 session.setAttribute("loginInfo", "账户或密码错误");
-                response.sendRedirect("/login.jsp");
+                request.getRequestDispatcher("/login.jsp").forward(request, response);
             }
         }
         response.sendRedirect("/success.jsp");
