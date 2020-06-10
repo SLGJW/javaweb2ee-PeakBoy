@@ -21,7 +21,7 @@ public class LoginFilter implements Filter {
         response.setContentType("text/html;charset=utf-8");
         //获取请求路径
         String uri = req.getRequestURI();
-        if (uri.contains("index.html") || uri.contains("login")) {//正常登录
+        if (uri.contains("/index.html") || uri.contains("/login") || uri.contains("/")) {//正常登录
             chain.doFilter(request, response);
         } else {
             Object user = req.getSession().getAttribute("user");//判断是否以登录

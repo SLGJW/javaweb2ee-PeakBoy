@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd5e803a-ef34-4558-8900-df75ad101129" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../SCT_01Servlet/.idea/artifacts/stuInfo_method01_war.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SCT_01Servlet/.idea/artifacts/stuInfo_method01_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SCT_01Servlet/.idea/artifacts/stuInfo_method02_war.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SCT_01Servlet/.idea/artifacts/stuInfo_method02_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SCT_01Servlet/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SCT_01Servlet/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SCT_01Servlet/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SCT_01Servlet/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SCT_01Servlet/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SCT_01Servlet/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SCT_01Servlet/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SCT_01Servlet/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SCT_01Servlet/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SCT_01Servlet/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SCT_01Servlet/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SCT_01Servlet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SCT_01Servlet/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SCT_01Servlet/stuInfo_method01/stuInfo_method01.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SCT_01Servlet/stuInfo_method02/stuInfo_method02.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SCT_02Servlet4Login/login_Cookie/login_Cookie.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SCT_02Servlet4Login/login_session/login_session.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/danger/filter/LoginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/danger/filter/LoginFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SCT_08JavaWebMVC/work_managerment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SCT_08JavaWebMVC/work_managerment/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c9cd67cf-ee14-442b-8f0b-16fa4aa06104" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../SCT_01Servlet/.idea/artifacts/stuInfo_method01_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SCT_01Servlet/.idea/artifacts/stuInfo_method01_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SCT_01Servlet/.idea/artifacts/stuInfo_method02_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SCT_01Servlet/.idea/artifacts/stuInfo_method02_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SCT_01Servlet/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SCT_01Servlet/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SCT_01Servlet/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SCT_01Servlet/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SCT_01Servlet/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SCT_01Servlet/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SCT_01Servlet/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SCT_01Servlet/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SCT_01Servlet/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SCT_01Servlet/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SCT_01Servlet/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SCT_01Servlet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SCT_01Servlet/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SCT_01Servlet/stuInfo_method01/stuInfo_method01.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SCT_01Servlet/stuInfo_method02/stuInfo_method02.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login_session.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SCT_08JavaWebMVC/work_managerment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SCT_08JavaWebMVC/work_managerment/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,52 +28,46 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeInsightWorkspaceSettings">
-    <option name="optimizeImportsOnTheFly" value="true" />
-  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/danger/filter/LoginFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="19" column="66" lean-forward="true" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/danger/servlet/Login.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/danger/servlet/InvalidateServlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="248">
-              <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/danger/servlet/LoginServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+            <state relative-caret-position="248">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/success.html">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2045" />
+          </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/error.html">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/success.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -96,10 +86,18 @@
     <option name="jreName" value="1.8" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="20" />
-    <option name="width" value="1402" />
+    <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -112,57 +110,47 @@
         <subPane>
           <expand>
             <path>
-              <item name="filter_practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SCT_03Filters4Login" type="462c0819:PsiDirectoryNode" />
+              <item name="login_session" type="b2602c69:ProjectViewProjectNode" />
+              <item name="login_session" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="filter_practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SCT_03Filters4Login" type="462c0819:PsiDirectoryNode" />
+              <item name="login_session" type="b2602c69:ProjectViewProjectNode" />
+              <item name="login_session" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="filter_practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SCT_03Filters4Login" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filter_practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SCT_03Filters4Login" type="462c0819:PsiDirectoryNode" />
+              <item name="login_session" type="b2602c69:ProjectViewProjectNode" />
+              <item name="login_session" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="filter_practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SCT_03Filters4Login" type="462c0819:PsiDirectoryNode" />
+              <item name="login_session" type="b2602c69:ProjectViewProjectNode" />
+              <item name="login_session" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="filter_practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SCT_03Filters4Login" type="462c0819:PsiDirectoryNode" />
+              <item name="login_session" type="b2602c69:ProjectViewProjectNode" />
+              <item name="login_session" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="danger" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="filter_practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SCT_03Filters4Login" type="462c0819:PsiDirectoryNode" />
+              <item name="login_session" type="b2602c69:ProjectViewProjectNode" />
+              <item name="login_session" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="danger" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="filter_practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SCT_03Filters4Login" type="462c0819:PsiDirectoryNode" />
+              <item name="login_session" type="b2602c69:ProjectViewProjectNode" />
+              <item name="login_session" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -171,8 +159,8 @@
               <item name="servlet" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="filter_practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SCT_03Filters4Login" type="462c0819:PsiDirectoryNode" />
+              <item name="login_session" type="b2602c69:ProjectViewProjectNode" />
+              <item name="login_session" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
@@ -181,12 +169,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -210,17 +197,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bd5e803a-ef34-4558-8900-df75ad101129" name="Default Changelist" comment="" />
-      <created>1591060833542</created>
+      <changelist id="c9cd67cf-ee14-442b-8f0b-16fa4aa06104" name="Default Changelist" comment="" />
+      <created>1590718566372</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1591060833542</updated>
-      <workItem from="1591060842262" duration="1072000" />
+      <updated>1590718566372</updated>
+      <workItem from="1590718570228" duration="1947000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1072000" />
+    <option name="totallyTimeSpent" value="1947000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -262,30 +249,29 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/danger/servlet/Login.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/danger/servlet/InvalidateServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
-          <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/success.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/error.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/danger/servlet/LoginServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        <state relative-caret-position="248">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/danger/filter/LoginFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="19" column="66" lean-forward="true" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
+        <state relative-caret-position="-2045" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/success.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
