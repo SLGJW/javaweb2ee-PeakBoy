@@ -1,11 +1,12 @@
 package com.danger.domain;
 
+import com.danger.utils.DateUtil;
+
 import java.io.Serializable;
 import java.util.Date;
 
 public class Student implements Serializable {
     private Integer id;
-    private String snumber;
     private String password;
     private String sname;
     private Date sdate;
@@ -22,13 +23,6 @@ public class Student implements Serializable {
         this.id = id;
     }
 
-    public String getSnumber() {
-        return snumber;
-    }
-
-    public void setSnumber(String snumber) {
-        this.snumber = snumber;
-    }
 
     public String getPassword() {
         return password;
@@ -55,6 +49,9 @@ public class Student implements Serializable {
     }
 
     public String getSdateStr() {
+        if (sdate != null){
+            sdateStr = DateUtil.DateToString(sdate, "yyyy-MM-dd");
+        }
         return sdateStr;
     }
 
@@ -80,6 +77,11 @@ public class Student implements Serializable {
     }
 
     public String getStatusStr() {
+        if (status == 0){
+            statusStr = "正常";
+        }else if (status == 1){
+            statusStr = "黑名单";
+        }
         return statusStr;
     }
 

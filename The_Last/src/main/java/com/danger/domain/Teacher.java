@@ -1,5 +1,7 @@
 package com.danger.domain;
 
+import com.danger.utils.DateUtil;
+
 import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
@@ -10,7 +12,6 @@ import java.util.List;
 public class Teacher implements Serializable {
 
     private Integer id;
-    private String tnumber;
     private String password;
     private String tname;
     private String tsubject;
@@ -30,6 +31,11 @@ public class Teacher implements Serializable {
     }
 
     public String getStatusStr() {
+        if (status == 0){
+            statusStr = "正常";
+        }else if (status == 1){
+            statusStr = "黑名单";
+        }
         return statusStr;
     }
 
@@ -45,13 +51,6 @@ public class Teacher implements Serializable {
         this.id = id;
     }
 
-    public String getTnumber() {
-        return tnumber;
-    }
-
-    public void setTnumber(String tnumber) {
-        this.tnumber = tnumber;
-    }
 
     public String getPassword() {
         return password;
@@ -86,6 +85,9 @@ public class Teacher implements Serializable {
     }
 
     public String getTdateStr() {
+        if (tdate != null){
+            tdateStr = DateUtil.DateToString(tdate, "yyyy-MM-dd");
+        }
         return tdateStr;
     }
 
@@ -98,6 +100,7 @@ public class Teacher implements Serializable {
     }
 
     public void setStatus(Integer status) {
+
         this.status = status;
     }
 }
