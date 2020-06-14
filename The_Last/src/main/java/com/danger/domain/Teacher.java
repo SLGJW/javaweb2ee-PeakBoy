@@ -1,10 +1,10 @@
 package com.danger.domain;
 
 import com.danger.utils.DateUtil;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import java.io.Serializable;
 import java.util.Date;
-import java.util.List;
 
 /**
  * 教师实体类
@@ -15,25 +15,16 @@ public class Teacher implements Serializable {
     private String password;
     private String tname;
     private String tsubject;
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date tdate;
     private String tdateStr;
     private Integer status;
     private String statusStr;
 
-    private List<Course> courses;
-
-    public List<Course> getCourses() {
-        return courses;
-    }
-
-    public void setCourses(List<Course> courses) {
-        this.courses = courses;
-    }
-
     public String getStatusStr() {
-        if (status == 0){
+        if (status == 0) {
             statusStr = "正常";
-        }else if (status == 1){
+        } else if (status == 1) {
             statusStr = "黑名单";
         }
         return statusStr;
@@ -85,7 +76,7 @@ public class Teacher implements Serializable {
     }
 
     public String getTdateStr() {
-        if (tdate != null){
+        if (tdate != null) {
             tdateStr = DateUtil.DateToString(tdate, "yyyy-MM-dd");
         }
         return tdateStr;

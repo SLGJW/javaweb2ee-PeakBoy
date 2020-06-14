@@ -16,4 +16,19 @@ public class TeacherServiceImpl implements TeacherService {
     public List<Teacher> findAll() {
         return teacherDao.findAll();
     }
+
+    @Override
+    public void add(Teacher teacher) {
+        teacherDao.add(teacher);
+    }
+
+    @Override
+    public void delete(Integer id) {
+        teacherDao.delete(id);
+    }
+
+    @Override
+    public Teacher findOne(Integer viewId) {
+        return teacherDao.findOne(viewId);
+    }
 }

@@ -7,4 +7,10 @@ import java.util.List;
 public interface TeacherService {
 
     public List<Teacher> findAll();
+
+    void add(Teacher teacher);
+
+    void delete(Integer id);
+
+    Teacher findOne(Integer viewId);
 }

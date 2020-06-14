@@ -38,9 +38,8 @@
                 <td>${t.statusStr}</td>
                 <td>${t.tdateStr}</td>
                 <td>
-                    <a href="${pageContext.request.contextPath}/teacher/delete?id=${t.id}">移除该人员</a>
-                    <a href="${pageContext.request.contextPath}/teacher/findOne?viewId=${t.id}">查看详情</a>
-                    <a href="${pageContext.request.contextPath}/teacher/findOne?updateId=${t.id}">更新信息</a>
+                    <a href="${pageContext.request.contextPath}/teacher/delete.action?id=${t.id}" onclick="return confirm('确认要删除？')">移除该人员</a>
+                    <a href="${pageContext.request.contextPath}/teacher/findOne.action?viewId=${t.id}">查看详情</a>
                 </td>
             </tr>
         </c:forEach>
@@ -64,16 +63,19 @@
                 <td>${s.statusStr}</td>
                 <td>${s.sdateStr}</td>
                 <td>
-                    <a href="${pageContext.request.contextPath}/student/delete?id=${s.id}">移除该人员</a>
-                    <a href="${pageContext.request.contextPath}/student/findOne?viewId=${s.id}">查看详情</a>
-                    <a href="${pageContext.request.contextPath}/student/findOne?updateId=${s.id}">更新信息</a>
+                    <a href="${pageContext.request.contextPath}/student/delete.action?id=${s.id}" onclick="return confirm('确认要删除？')">移除该人员</a>
+                    <a href="${pageContext.request.contextPath}/student/findOne.action?viewId=${s.id}">查看详情</a>
+                    <a href="${pageContext.request.contextPath}/pages/update.jsp?id=${s.id}">修改密码</a>
                 </td>
             </tr>
         </c:forEach>
     </table>
 </c:if>
 <br>
-<a href="${pageContext.request.contextPath}/add.jsp">添加人员</a>
+<h3>添加人员</h3>
+<a href="${pageContext.request.contextPath}/pages/sadd.jsp">添加学生</a>
+<a href="${pageContext.request.contextPath}/pages/tadd.jsp">添加老师</a>
+
 <br>
 </body>
 </html>

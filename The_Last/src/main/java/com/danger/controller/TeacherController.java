@@ -5,6 +5,7 @@ import com.danger.service.TeacherService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
@@ -14,6 +15,27 @@ import java.util.List;
 public class TeacherController {
     @Autowired
     TeacherService teacherService;
+
+    @RequestMapping("/findOne")
+    public ModelAndView findOne(@RequestParam(name = "viewId")Integer viewId){
+        ModelAndView mv = new ModelAndView();
+        Teacher teacher = teacherService.findOne(viewId);
+        mv.addObject("teacher", teacher);
+        mv.setViewName("detail");
+        return mv;
+    }
+
+    @RequestMapping("/delete")
+    public String delete(@RequestParam(name = "id", required = true)Integer id){
+        teacherService.delete(id);
+        return "main";
+    }
+
+    @RequestMapping("/add")
+    public String add( Teacher teacher){
+        teacherService.add(teacher);
+        return "main";
+    }
 
     @RequestMapping("/findAll")
     public ModelAndView findAll(){

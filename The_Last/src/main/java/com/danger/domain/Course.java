@@ -9,6 +9,17 @@ public class Course implements Serializable {
     private String statusStr;
     private Integer tid;
 
+    @Override
+    public String toString() {
+        return "Course{" +
+                "id=" + id +
+                ", cname='" + cname + '\'' +
+                ", status=" + status +
+                ", statusStr='" + statusStr + '\'' +
+                ", tid=" + tid +
+                '}';
+    }
+
     public Integer getTid() {
         return tid;
     }
